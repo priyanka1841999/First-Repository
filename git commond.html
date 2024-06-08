@@ -1,0 +1,39 @@
+##########  New repository process   ########
+
+#Global Config
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+
+###### Check ######
+git config user.name
+git config user.email
+
+git init
+git add README.md
+git remote add origin https://github.com/repo/repo.git
+git commit -m 'Message'
+git add .
+git push -u git remote add origin https://github.com/repo/repo.git
+
+
+#######  predefign  repository process  ######
+git add .
+git commit -m 'Message'
+git push -u origin master
+
+######  check Current REPOSITORY ##########
+git remote -v
+
+######  change Branch   ##########
+git checkout branch_name
+
+####  Find all Branch ########
+git branch
+
+#####  Create New Branch #####
+git checkout -b newbranch 
+
+
+######  Delete Branch  #######
+git branch -d branch_name
+git push origin :Branch_Name
